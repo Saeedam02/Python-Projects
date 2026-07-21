@@ -1,4 +1,4 @@
-# Python-CodingChallenges
+# Python-Projects
 ![Python-challenges](https://github.com/Saeedam02/Python-CodingChallenges/blob/main/image/PythonChallenge.jpeg)
 "Welcome to Python-CodingChallenges! This repository is a collection of Python code solutions for a wide range of problems and challenges. Whether you're looking for coding solutions, algorithm implementations, or examples of Python's versatility, you'll find it all here. Explore, learn, and expand your Python programming skills with our diverse set of code snippets. Feel free to contribute your own solutions or explore the existing ones to tackle various problems effectively."
 ## Contribution Guidelines
@@ -16,4 +16,5 @@ Your contributions will be reviewed, and once accepted, they will be merged into
 Happy coding and exploring Python!
 
 ---
-If you have any questions or need assistance, please don't hesitate to reach out to me.
+If you have any questions or need assistance, please don't hesitate to reach out to me. 
+my email is : Saeedaghamohammadi99@gmail.com
