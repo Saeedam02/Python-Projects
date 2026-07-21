@@ -1,5 +1,5 @@
 # PID Controller Tuner & Simulator
-
+![PID closed-loop diagram](diagram.svg)
 An interactive Streamlit app for tuning a PID controller against simulated
 physical systems, with live plots of the step response, control effort,
 and individual P/I/D contributions.
