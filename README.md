@@ -1,7 +1,7 @@
 # 🐍 Python Projects
 
 <p align="center">
-  <img src="https://github.com/Saeedam02/Python-CodingChallenges/blob/main/image/PythonChallenge.jpeg" alt="Python Projects" width="700">
+  <img src="https://github.com/Saeedam02/Python-Projects/blob/main/image/python.png" alt="Python Projects" width="700">
 </p>
 
 <p align="center">
