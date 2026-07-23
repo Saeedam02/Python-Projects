@@ -12,9 +12,7 @@ immediately click.
 
 ## Demo
 
-*(Add a screen recording GIF here — this is exactly the kind of project
-that benefits enormously from one. Tools like ScreenToGif (Windows) or
-Kap (Mac) work well.)*
+![Demo](Animation.gif)
 
 ## Features
 
