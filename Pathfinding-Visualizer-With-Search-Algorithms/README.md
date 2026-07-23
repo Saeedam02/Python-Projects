@@ -4,11 +4,6 @@ An interactive Pygame app that visualizes and compares four classic search
 algorithms — **BFS**, **DFS**, **Dijkstra**, and **A\*** — solving the same
 grid maze in real time, side by side in behavior if not in pixels.
 
-This is one of the most searched, most-cloned genres of Python project on
-GitHub (search terms like "python pathfinding visualizer" and "A* algorithm
-python" get consistent, high search volume), and for good reason: watching
-a search algorithm actually explore a maze makes an abstract CS concept
-immediately click.
 
 ## Demo
 
