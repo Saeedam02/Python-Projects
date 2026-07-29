@@ -61,32 +61,6 @@ They split naturally into three families, and the split *is* the lesson:
   a known range), which is exactly why they're not general-purpose
   replacements for the algorithms above.
 
-## About the comparison GIF
-
-`generate_sorting_gif.py` is the script that produced the animation at the
-top of this README. It contains *instrumented* versions of all 8
-algorithms — same logic as the individual files, but each yields a
-snapshot of the array after every meaningful write or swap, so it can be
-animated frame by frame with `matplotlib`. Slower algorithms are padded
-with repeats of their final sorted state once they finish, so every
-algorithm's finishing point is visible in the same timeline — that's what
-makes the "some finish almost instantly" effect an honest reflection of
-relative speed, not an animation trick.
-
-Regenerate it yourself, or tweak it (different array size, speed, or
-random seed):
-
-```bash
-pip install matplotlib pillow numpy
-python generate_sorting_gif.py --size 24 --output sorting_algorithms_comparison.gif
-```
-
-Options:
-```bash
-python generate_sorting_gif.py --size 40          # sort a bigger array
-python generate_sorting_gif.py --fps 15            # slower animation
-python generate_sorting_gif.py --seed 42            # different shuffle
-```
 
 ## Honest limitations
 
