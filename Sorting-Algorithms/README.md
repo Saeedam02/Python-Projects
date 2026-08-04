@@ -1,4 +1,4 @@
-# 🔢 Sorting Algorithms — 8 Classic Sorts, Implemented and Compared
+# 🔢 Sorting Algorithms — Some Classic Sorts, Implemented and Compared
 
 Eight sorting algorithms, each in its own clean, heavily commented file,
 plus a generated animation that runs all of them side by side on the same
