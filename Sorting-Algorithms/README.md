@@ -13,16 +13,20 @@ O(n log n) versus O(n²), made visible instead of just stated.*
 
 ## What's in this collection
 
+
 | File | Algorithm | Time complexity | Space | In-place? | Stable? |
 |---|---|---|---|---|---|
 | `bubble_sort.py` | Bubble Sort | O(n²), best O(n) | O(1) | ✅ | ✅ |
+| `cocktail_sort.py` | Cocktail Shaker Sort | O(n²), best O(n) | O(1) | ✅ | ✅ |
 | `insertion_sort.py` | Insertion Sort | O(n²), best O(n) | O(1) | ✅ | ✅ |
 | `selection_sort.py` | Selection Sort | O(n²) always | O(1) | ✅ | ❌ |
+| `shell_sort.py` | Shell Sort | O(n²) worst, gap-dependent | O(1) | ✅ | ❌ |
 | `heap_sort.py` | Heap Sort | O(n log n) always | O(1) | ✅ | ❌ |
 | `merge_sort.py` | Merge Sort | O(n log n) always | O(n) | ❌ | ✅ |
-| `quick_sort.py` | Quick Sort | O(n log n) avg, O(n²) worst | O(log n) | ✅ | ❌ |
-| `counting_sort.py` | Counting Sort | O(n + k)* | O(n + k) | ❌ | ✅ |
-| `radix_sort.py` | Radix Sort | O(d·(n + k))* | O(n + k) | ❌ | ✅ |
+| `quick_sort.py` | Quick Sort | O(n log n) average, O(n²) worst | O(log n)* | ✅ | ❌ |
+| `counting_sort.py` | Counting Sort | O(n + k)** | O(n + k) | ❌ | ✅ |
+| `radix_sort.py` | Radix Sort | O(d·(n + k))** | O(n + k) | ❌ | ✅ |
+
 
 *\*k = range of input values (counting sort), d = number of digits (radix sort). Both only support non-negative integers — see the notes below.*
 
@@ -78,3 +82,7 @@ They split naturally into three families, and the split *is* the lesson:
 ## License
 
 MIT
+
+
+
+
